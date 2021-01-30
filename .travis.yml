@@ -3,7 +3,3 @@ jdk:
 - openjdk8
 script: mvn clean verify
 
-deploy:
-  provider: heroku
-  api_key:
-    secure: "YOUR ENCRYPTED API KEY"
