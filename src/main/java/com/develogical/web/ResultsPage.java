@@ -9,7 +9,7 @@ public class ResultsPage extends HtmlPage {
 
     public ResultsPage(String query, String answer) {
         this.query = query;
-        this.answer = answer;
+        this.answer = query;
     }
 
     @Override
